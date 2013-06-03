@@ -21,7 +21,7 @@ def initCA(nVal,printN=False):
     return a
 
 def init():
-    """sets directory to open file"""    
+    """sets directory to open file - this works for mac with python 2.7"""    
     os.chdir(r"/Library/Python/2.7/site-packages/rand_mod")
     return
 
