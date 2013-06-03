@@ -1,0 +1,11 @@
+import os
+
+curpath = os.path.abspath(os.curdir)
+packet_file = "%s" % ("rands.txt")
+print "Current path is: %s" % (curpath)
+print "Trying to open: %s" % (os.path.join(curpath, packet_file))
+
+packetFile = open(packet_file, "r")
+for line in packetFile:
+    print line
+    break
