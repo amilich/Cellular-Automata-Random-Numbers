@@ -1,5 +1,4 @@
 # Computer-Science-and-Complexity
-2013 Independent Study
 
 This Python module generates random numbers using a Cellular Automata. 
 A CA is first generated according to Rule 30, which generates pseudorandom patterns. 
