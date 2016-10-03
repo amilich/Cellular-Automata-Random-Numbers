@@ -7,3 +7,5 @@ into a decimal number.
 
 The module was tested with various Diehard tests to measure randomness; against 
 the Python built in random function, it provided more even (random) distributions. 
+
+Created by Andrew Milich in Spring 2013. 
